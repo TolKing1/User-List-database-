@@ -43,10 +43,10 @@
                       </th>
           
                       <th class="max-width">Name</th>
-                      <th class="sortable">Date</th>
+                      <!-- <th class="sortable">Date</th>
               
                       <th>Status </th>
-                      <th>Actions</th>
+                      <th>Actions</th> -->
                     </tr>
                   </thead>
                   <tbody class="table__body">
@@ -59,13 +59,13 @@
                       </td>
                     
                       <td class="text-nowrap align-middle">Adam Cotter</td>
-                      <td class="text-nowrap align-middle"><span>09 Dec 2017</span></td>
+                      <!-- <td class="text-nowrap align-middle"><span>09 Dec 2017</span></td>
                       <td class="text-center align-middle"><i class="fa fa-fw text-secondary cursor-pointer fa-toggle-on"></i></td>
                       <td class="text-center align-middle">
                         <div class="btn-group align-top">
                             <button class="btn btn-sm btn-outline-secondary badge" type="button" data-toggle="modal" data-target="#user-form-modal">Edit</button>
                             <button class="btn btn-sm btn-outline-secondary badge" type="button"><i class="fa fa-trash"></i></button>
-                        </div>
+                        </div> -->
                       </td>
                     </tr>
                     <!-- <tr>
@@ -351,20 +351,20 @@
           </div>
           <div class="modal-body">
             <div class="py-1">
-              <form class="form" novalidate="">
+              <form class="form__users" novalidate="">
                 <div class="row">
                   <div class="col">
                     <div class="row">
                       <div class="col">
                         <div class="form-group">
                           <label>Full Name</label>
-                          <input class="form-control" type="text" name="name" placeholder="John Smith" value="John Smith">
+                          <input class="form-control name" type="text" name="name" placeholder="John Smith" value="John Smith">
                         </div>
                       </div>
                       <div class="col">
                         <div class="form-group">
                           <label>Username</label>
-                          <input class="form-control" type="text" name="username" placeholder="johnny.s" value="johnny.s">
+                          <input class="form-control username" type="text" name="username" placeholder="johnny.s" value="johnny.s">
                         </div>
                       </div>
                     </div>
@@ -372,7 +372,7 @@
                       <div class="col">
                         <div class="form-group">
                           <label>Email</label>
-                          <input class="form-control" type="text" placeholder="user@example.com">
+                          <input class="form-control email" type="text" placeholder="user@example.com">
                         </div>
                       </div>
                     </div>
@@ -380,7 +380,7 @@
                       <div class="col mb-3">
                         <div class="form-group">
                           <label>About</label>
-                          <textarea class="form-control" rows="5" placeholder="My Bio"></textarea>
+                          <textarea class="form-control bio" rows="5" placeholder="My Bio"></textarea>
                         </div>
                       </div>
                     </div>
