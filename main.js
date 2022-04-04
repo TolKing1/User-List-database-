@@ -57,3 +57,7 @@ function addUsers(e){
 }
 document.querySelector('.form__users').addEventListener('submit',addUsers);
 renderUser()
+
+$(document).ready( function () {
+    $('#dataname').DataTable();
+} );
